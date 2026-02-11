@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Cristiano Ronaldo - CR7</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #111;
-            color: white;
-        }
+<meta charset="UTF-8">
+<title>Cristiano Ronaldo - CR7</title>
 
-        header {
-            background-color: black;
-            text-align: center;
-            padding: 20px;
-        }
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin:0;
+        background-color:#111;
+        color:white;
+    }
 
-        h1 {
-            color: gold;
-        }
+    header{
+        background:black;
+        text-align:center;
+        padding:20px;
+    }
 
-        section {
-            margin: 15px;
-            padding: 15px;
-            background-color: #1e1e1e;
-            border-radius: 8px;
-        }
+    h1{
+        color:gold;
+    }
 
-        h2 {
-            color: gold;
-        }
+    .contenedor{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+        padding:20px;
+        flex-wrap:wrap;
+    }
 
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: black;
-        }
-    </style>
+    .cuadro{
+        background:#1e1e1e;
+        width:30%;
+        min-width:300px;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(255,215,0,0.3);
+    }
+
+    .cuadro h2{
+        color:gold;
+        text-align:center;
+    }
+
+    .cuadro p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+    footer{
+        background:black;
+        text-align:center;
+        padding:15px;
+        margin-top:20px;
+    }
+</style>
+
 </head>
 <body>
 
@@ -46,44 +65,57 @@
     <p>Biografía, Carrera y Familia</p>
 </header>
 
-<section><h2>Carrera 1: Sporting Lisboa</h2><p>Debutó profesionalmente en 2002.</p></section>
-<section><h2>Carrera 2: Fichaje al Manchester United</h2><p>Fue fichado en 2003 por Sir Alex Ferguson.</p></section>
-<section><h2>Carrera 3: Primer Balón de Oro</h2><p>Ganó su primer Balón de Oro en 2008.</p></section>
-<section><h2>Carrera 4: Real Madrid</h2><p>Fichó en 2009 por una cifra récord en ese momento.</p></section>
-<section><h2>Carrera 5: Máximo Goleador</h2><p>Se convirtió en el máximo goleador histórico del Real Madrid.</p></section>
-<section><h2>Carrera 6: Champions League</h2><p>Ganó 5 Champions League en su carrera.</p></section>
-<section><h2>Carrera 7: Juventus</h2><p>Jugó en Italia entre 2018 y 2021.</p></section>
-<section><h2>Carrera 8: Regreso al United</h2><p>Volvió al Manchester United en 2021.</p></section>
-<section><h2>Carrera 9: Al-Nassr</h2><p>En 2023 fichó por el club saudí Al-Nassr.</p></section>
-<section><h2>Carrera 10: Selección Portuguesa</h2><p>Ganó la Eurocopa 2016 y la Nations League 2019 y 2025.</p></section>
+<div class="contenedor">
 
+    <!-- ================= BIOGRAFÍA ================= -->
+    <div class="cuadro">
+        <h2>📖 Biografía</h2>
+        <p><strong>1.</strong> Cristiano Ronaldo dos Santos Aveiro.</p>
+        <p><strong>2.</strong> Nació el 5 de febrero de 1985 en Madeira, Portugal.</p>
+        <p><strong>3.</strong> Hijo de José Dinis Aveiro y Maria Dolores dos Santos.</p>
+        <p><strong>4.</strong> Tiene tres hermanos: Hugo, Elma y Katia.</p>
+        <p><strong>5.</strong> Creció en un entorno humilde.</p>
+        <p><strong>6.</strong> Es conocido por su disciplina.</p>
+        <p><strong>7.</strong> Ingresó al Sporting de Lisboa desde joven.</p>
+        <p><strong>8.</strong> Destaca por su físico y capacidad atlética.</p>
+        <p><strong>9.</strong> Siempre ha demostrado ambición por ser el mejor.</p>
+        <p><strong>10.</strong> Es considerado uno de los mejores futbolistas de la historia.</p>
+    </div>
 
-<section><h2>Biografía 1: Nombre Completo</h2><p>Cristiano Ronaldo dos Santos Aveiro.</p></section>
-<section><h2>Biografía 2: Nacimiento</h2><p>Nació el 5 de febrero de 1985 en Madeira, Portugal.</p></section>
-<section><h2>Biografía 3: Padres</h2><p>Hijo de José Dinis Aveiro y Maria Dolores dos Santos.</p></section>
-<section><h2>Biografía 4: Hermanos</h2><p>Tiene tres hermanos: Hugo, Elma y Katia.</p></section>
-<section><h2>Biografía 5: Infancia</h2><p>Creció en un entorno humilde y mostró talento desde pequeño.</p></section>
-<section><h2>Biografía 6: Personalidad</h2><p>Es conocido por su disciplina y mentalidad competitiva.</p></section>
-<section><h2>Biografía 7: Formación</h2><p>Ingresó a la academia del Sporting de Lisboa a temprana edad.</p></section>
-<section><h2>Biografía 8: Físico</h2><p>Destaca por su gran condición física y capacidad atlética.</p></section>
-<section><h2>Biografía 9: Mentalidad</h2><p>Siempre ha demostrado ambición por ser el mejor.</p></section>
-<section><h2>Biografía 10: Impacto Mundial</h2><p>Es considerado uno de los mejores futbolistas de la historia.</p></section>
+    <!-- ================= HISTORIAL DE CARRERA ================= -->
+    <div class="cuadro">
+        <h2>⚽ Historial de Carrera</h2>
+        <p><strong>1.</strong> Debutó en Sporting Lisboa en 2002.</p>
+        <p><strong>2.</strong> Fichó por Manchester United en 2003.</p>
+        <p><strong>3.</strong> Ganó su primer Balón de Oro en 2008.</p>
+        <p><strong>4.</strong> Fichó por el Real Madrid en 2009.</p>
+        <p><strong>5.</strong> Es el máximo goleador histórico del Real Madrid.</p>
+        <p><strong>6.</strong> Ganó 5 Champions League.</p>
+        <p><strong>7.</strong> Jugó en Juventus entre 2018 y 2021.</p>
+        <p><strong>8.</strong> Regresó al Manchester United en 2021.</p>
+        <p><strong>9.</strong> Fichó por Al-Nassr en 2023.</p>
+    </div>
 
-<section><h2>Familia 1: Madre</h2><p>Maria Dolores es una figura muy importante en su vida.</p></section>
-<section><h2>Familia 2: Padre</h2><p>Su padre falleció en 2005.</p></section>
-<section><h2>Familia 3: Hermanos</h2><p>Mantiene una relación cercana con sus hermanos.</p></section>
-<section><h2>Familia 4: Pareja</h2><p>Su pareja actual es Georgina Rodríguez.</p></section>
-<section><h2>Familia 5: Primer Hijo</h2><p>Cristiano Ronaldo Jr. nació en 2010.</p></section>
-<section><h2>Familia 6: Mellizos</h2><p>Eva y Mateo nacieron en 2017.</p></section>
-<section><h2>Familia 7: Alana Martina</h2><p>Nació en 2017.</p></section>
-<section><h2>Familia 8: Bella Esmeralda</h2><p>Nació en 2022.</p></section>
-<section><h2>Familia 9: Vida Privada</h2><p>Procura mantener equilibrio entre familia y fútbol.</p></section>
-<section><h2>Familia 10: Valores</h2><p>Promueve valores como el esfuerzo y la superación.</p></section>
+    <!-- ================= FAMILIA ================= -->
+    <div class="cuadro">
+        <h2>👨‍👩‍👧 Familia</h2>
+        <p><strong>1.</strong> Su madre es Maria Dolores.</p>
+        <p><strong>2.</strong> Su padre falleció en 2005.</p>
+        <p><strong>3.</strong> Tiene tres hermanos.</p>
+        <p><strong>4.</strong> Su pareja es Georgina Rodríguez.</p>
+        <p><strong>5.</strong> Cristiano Ronaldo Jr. nació en 2010.</p>
+        <p><strong>6.</strong> Eva y Mateo nacieron en 2017.</p>
+        <p><strong>7.</strong> Alana Martina nació en 2017.</p>
+        <p><strong>8.</strong> Bella Esmeralda nació en 2022.</p>
+        <p><strong>9.</strong> Mantiene equilibrio entre familia y fútbol.</p>
+        <p><strong>10.</strong> Promueve valores como esfuerzo y superación.</p>
+    </div>
+
+</div>
+
 <footer>
     Proyecto académico sobre Cristiano Ronaldo | 2026
 </footer>
 
 </body>
 </html>
-
-
